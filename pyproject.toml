@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "finetune"
+version = "0.1.0"
+description = ""
+authors = ["jpysson1 <161132064+jpysson1@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+poethepoet = "^0.26.1"
+gdown = "^5.2.0"
+torch = "^2.3.0"
+pillow = "^10.3.0"
+numpy = "^1.26.4"
+torchvision = "^0.18.0"
+matplotlib = "^3.8.4"
+commitizen = "^3.25.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poe.tasks.pull_data_2]
+help = "Download and unzip data_558.zip from Google Drive into the data_test directory"
+shell = """
+mkdir -p ./data_test && \
+gdown --id 1BccTe3ND-yOQ1KTWDU6Jb6p8j2xyEWeq -O ./data_test/data_558.zip && \
+unzip ./data_test/data_558.zip -d ./data_test && \
+rm ./data_test/data_558.zip
+"""

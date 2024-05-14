@@ -1,0 +1,7 @@
+# Ignore directories
+/data_test/
+/organized_categories/
+
+# Ignore model weights in the model directory
+model/*.pth
+
