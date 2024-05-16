@@ -1,7 +1,10 @@
 # Ignore directories
 /data_test/
 /organized_categories/
+/combined_classes/
+
 
 # Ignore model weights in the model directory
 model/*.pth
+/workspaces/finetune/CNN/resnet_triplet.pth
 
