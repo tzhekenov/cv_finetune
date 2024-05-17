@@ -17,6 +17,10 @@ matplotlib = "^3.8.4"
 commitizen = "^3.25.0"
 tensorflow = "^2.16.1"
 preprocessing = "^0.1.13"
+kmeans-pytorch = "^0.3"
+imgsim = "^0.1.2"
+transformers = "^4.41.0"
+scipy = "^1.13.0"
 
 
 [tool.poetry.group.dev.dependencies]

@@ -2,9 +2,14 @@
 /data_test/
 /organized_categories/
 /combined_classes/
-
+/workspaces/finetune/test_data
 
 # Ignore model weights in the model directory
 model/*.pth
 /workspaces/finetune/CNN/resnet_triplet.pth
 
+/workspaces/finetune/image_captions.json
+
+/workspaces/finetune/CNN/resnet_triplet_2.pth
+/workspaces/finetune/CNN/resnet_triplet_3.pth
+/workspaces/finetune/CNN/resnet_triplet_4.pth
