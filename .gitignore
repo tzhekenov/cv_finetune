@@ -13,3 +13,13 @@ model/*.pth
 /workspaces/finetune/CNN/resnet_triplet_2.pth
 /workspaces/finetune/CNN/resnet_triplet_3.pth
 /workspaces/finetune/CNN/resnet_triplet_4.pth
+
+/workspaces/finetune/combined_classes copy
+/workspaces/finetune/AFINAL/clip/combined_classes_augmented
+/workspaces/finetune/combined_classes copy
+/workspaces/finetune/combined_classes copy 2
+
+*.jpg
+*.jpeg
+*.png
+*.gif
