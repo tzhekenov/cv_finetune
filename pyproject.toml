@@ -24,6 +24,7 @@ scipy = "^1.13.0"
 augmentor = "^0.2.12"
 scikit-learn = "^1.4.2"
 openai = "0.28"
+clip = {git = "https://github.com/openai/CLIP.git"}
 
 
 [tool.poetry.group.dev.dependencies]

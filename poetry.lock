@@ -421,6 +421,31 @@ files = [
 ]
 
 [[package]]
+name = "clip"
+version = "1.0"
+description = ""
+optional = false
+python-versions = "*"
+files = []
+develop = false
+
+[package.dependencies]
+ftfy = "*"
+regex = "*"
+torch = "*"
+torchvision = "*"
+tqdm = "*"
+
+[package.extras]
+dev = ["pytest"]
+
+[package.source]
+type = "git"
+url = "https://github.com/openai/CLIP.git"
+reference = "HEAD"
+resolved_reference = "a1d071733d7111c9c014f024669f959182114e33"
+
+[[package]]
 name = "colorama"
 version = "0.4.6"
 description = "Cross-platform colored terminal text."
@@ -843,6 +868,20 @@ sftp = ["paramiko"]
 smb = ["smbprotocol"]
 ssh = ["paramiko"]
 tqdm = ["tqdm"]
+
+[[package]]
+name = "ftfy"
+version = "6.2.0"
+description = "Fixes mojibake and other problems with Unicode, after the fact"
+optional = false
+python-versions = ">=3.8,<4"
+files = [
+    {file = "ftfy-6.2.0-py3-none-any.whl", hash = "sha256:f94a2c34b76e07475720e3096f5ca80911d152406fbde66fdb45c4d0c9150026"},
+    {file = "ftfy-6.2.0.tar.gz", hash = "sha256:5e42143c7025ef97944ca2619d6b61b0619fc6654f98771d39e862c1424c75c0"},
+]
+
+[package.dependencies]
+wcwidth = ">=0.2.12,<0.3.0"
 
 [[package]]
 name = "gast"
@@ -3875,4 +3914,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "f0e109e5762b68d505c837c1bd0216ac0da70bdcddb2d87278cfb5f64b8414ba"
+content-hash = "399db27176671d50731a52bb90f108d2d9a4728556741a5f7eac6ec061b547c9"

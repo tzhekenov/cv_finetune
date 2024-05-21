@@ -24,3 +24,4 @@ model/*.pth
 *.png
 *.gif
 *.json
+*.pth
